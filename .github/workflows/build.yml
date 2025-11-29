@@ -22,3 +22,6 @@ jobs:
       with:
         name: Snakeibo-build
         path: bin/*.apk
+      with:
+        name: Snakeibo-build
+        path: bin/*.apk
