@@ -18,7 +18,7 @@ jobs:
       run: buildozer android release
 
     - name: Upload artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Snakeibo-build
         path: bin/*.apk
