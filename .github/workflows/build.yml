@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Build APK
-      run: buildozer android release
+      run: buildozer --ignore-root android release
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
