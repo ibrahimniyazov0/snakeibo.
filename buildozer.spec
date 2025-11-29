@@ -6,6 +6,7 @@ source.dir = .
 source.include_exts = py,wav
 requirements = python3,kivy,kivmob,ffpyplayer
 fullscreen = 0
+version = 1.0.0
 
 [buildozer]
 log_level = 2
